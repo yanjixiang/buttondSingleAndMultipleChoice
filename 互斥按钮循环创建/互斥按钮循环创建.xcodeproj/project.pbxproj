@@ -1,0 +1,610 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C9DFE2FC22E0157300CF697A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C9DFE2FB22E0157300CF697A /* AppDelegate.m */; };
+		C9DFE2FF22E0157300CF697A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C9DFE2FE22E0157300CF697A /* ViewController.m */; };
+		C9DFE30222E0157300CF697A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9DFE30022E0157300CF697A /* Main.storyboard */; };
+		C9DFE30422E0157400CF697A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9DFE30322E0157400CF697A /* Assets.xcassets */; };
+		C9DFE30722E0157400CF697A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9DFE30522E0157400CF697A /* LaunchScreen.storyboard */; };
+		C9DFE30A22E0157400CF697A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C9DFE30922E0157400CF697A /* main.m */; };
+		C9DFE31422E0157400CF697A /* ________Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = C9DFE31322E0157400CF697A /* ________Tests.m */; };
+		C9DFE31F22E0157400CF697A /* ________UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C9DFE31E22E0157400CF697A /* ________UITests.m */; };
+		C9DFE33F22E071DA00CF697A /* YSLCustomButton.m in Sources */ = {isa = PBXBuildFile; fileRef = C9DFE33C22E071DA00CF697A /* YSLCustomButton.m */; };
+		C9DFE34022E071DA00CF697A /* UIColor+YMHex.m in Sources */ = {isa = PBXBuildFile; fileRef = C9DFE33D22E071DA00CF697A /* UIColor+YMHex.m */; };
+		C9DFE34122E071DA00CF697A /* CustomButtonView.m in Sources */ = {isa = PBXBuildFile; fileRef = C9DFE33E22E071DA00CF697A /* CustomButtonView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C9DFE31022E0157400CF697A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C9DFE2EF22E0157300CF697A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C9DFE2F622E0157300CF697A;
+			remoteInfo = "互斥按钮循环创建";
+		};
+		C9DFE31B22E0157400CF697A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C9DFE2EF22E0157300CF697A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C9DFE2F622E0157300CF697A;
+			remoteInfo = "互斥按钮循环创建";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C9DFE2F722E0157300CF697A /* 互斥按钮循环创建.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "互斥按钮循环创建.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9DFE2FA22E0157300CF697A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C9DFE2FB22E0157300CF697A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C9DFE2FD22E0157300CF697A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C9DFE2FE22E0157300CF697A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C9DFE30122E0157300CF697A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C9DFE30322E0157400CF697A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C9DFE30622E0157400CF697A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C9DFE30822E0157400CF697A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C9DFE30922E0157400CF697A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C9DFE30F22E0157400CF697A /* 互斥按钮循环创建Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "互斥按钮循环创建Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9DFE31322E0157400CF697A /* ________Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "________Tests.m"; sourceTree = "<group>"; };
+		C9DFE31522E0157400CF697A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C9DFE31A22E0157400CF697A /* 互斥按钮循环创建UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "互斥按钮循环创建UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9DFE31E22E0157400CF697A /* ________UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "________UITests.m"; sourceTree = "<group>"; };
+		C9DFE32022E0157400CF697A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C9DFE33922E071DA00CF697A /* YSLCustomButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YSLCustomButton.h; sourceTree = "<group>"; };
+		C9DFE33A22E071DA00CF697A /* CustomButtonView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomButtonView.h; sourceTree = "<group>"; };
+		C9DFE33B22E071DA00CF697A /* UIColor+YMHex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+YMHex.h"; sourceTree = "<group>"; };
+		C9DFE33C22E071DA00CF697A /* YSLCustomButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YSLCustomButton.m; sourceTree = "<group>"; };
+		C9DFE33D22E071DA00CF697A /* UIColor+YMHex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+YMHex.m"; sourceTree = "<group>"; };
+		C9DFE33E22E071DA00CF697A /* CustomButtonView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomButtonView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C9DFE2F422E0157300CF697A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9DFE30C22E0157400CF697A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9DFE31722E0157400CF697A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C9DFE2EE22E0157300CF697A = {
+			isa = PBXGroup;
+			children = (
+				C9DFE2F922E0157300CF697A /* 互斥按钮循环创建 */,
+				C9DFE31222E0157400CF697A /* 互斥按钮循环创建Tests */,
+				C9DFE31D22E0157400CF697A /* 互斥按钮循环创建UITests */,
+				C9DFE2F822E0157300CF697A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C9DFE2F822E0157300CF697A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C9DFE2F722E0157300CF697A /* 互斥按钮循环创建.app */,
+				C9DFE30F22E0157400CF697A /* 互斥按钮循环创建Tests.xctest */,
+				C9DFE31A22E0157400CF697A /* 互斥按钮循环创建UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C9DFE2F922E0157300CF697A /* 互斥按钮循环创建 */ = {
+			isa = PBXGroup;
+			children = (
+				C9DFE33822E071DA00CF697A /* CustomView */,
+				C9DFE2FA22E0157300CF697A /* AppDelegate.h */,
+				C9DFE2FB22E0157300CF697A /* AppDelegate.m */,
+				C9DFE2FD22E0157300CF697A /* ViewController.h */,
+				C9DFE2FE22E0157300CF697A /* ViewController.m */,
+				C9DFE30022E0157300CF697A /* Main.storyboard */,
+				C9DFE30322E0157400CF697A /* Assets.xcassets */,
+				C9DFE30522E0157400CF697A /* LaunchScreen.storyboard */,
+				C9DFE30822E0157400CF697A /* Info.plist */,
+				C9DFE30922E0157400CF697A /* main.m */,
+			);
+			path = "互斥按钮循环创建";
+			sourceTree = "<group>";
+		};
+		C9DFE31222E0157400CF697A /* 互斥按钮循环创建Tests */ = {
+			isa = PBXGroup;
+			children = (
+				C9DFE31322E0157400CF697A /* ________Tests.m */,
+				C9DFE31522E0157400CF697A /* Info.plist */,
+			);
+			path = "互斥按钮循环创建Tests";
+			sourceTree = "<group>";
+		};
+		C9DFE31D22E0157400CF697A /* 互斥按钮循环创建UITests */ = {
+			isa = PBXGroup;
+			children = (
+				C9DFE31E22E0157400CF697A /* ________UITests.m */,
+				C9DFE32022E0157400CF697A /* Info.plist */,
+			);
+			path = "互斥按钮循环创建UITests";
+			sourceTree = "<group>";
+		};
+		C9DFE33822E071DA00CF697A /* CustomView */ = {
+			isa = PBXGroup;
+			children = (
+				C9DFE33922E071DA00CF697A /* YSLCustomButton.h */,
+				C9DFE33A22E071DA00CF697A /* CustomButtonView.h */,
+				C9DFE33B22E071DA00CF697A /* UIColor+YMHex.h */,
+				C9DFE33C22E071DA00CF697A /* YSLCustomButton.m */,
+				C9DFE33D22E071DA00CF697A /* UIColor+YMHex.m */,
+				C9DFE33E22E071DA00CF697A /* CustomButtonView.m */,
+			);
+			path = CustomView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C9DFE2F622E0157300CF697A /* 互斥按钮循环创建 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C9DFE32322E0157400CF697A /* Build configuration list for PBXNativeTarget "互斥按钮循环创建" */;
+			buildPhases = (
+				C9DFE2F322E0157300CF697A /* Sources */,
+				C9DFE2F422E0157300CF697A /* Frameworks */,
+				C9DFE2F522E0157300CF697A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "互斥按钮循环创建";
+			productName = "互斥按钮循环创建";
+			productReference = C9DFE2F722E0157300CF697A /* 互斥按钮循环创建.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C9DFE30E22E0157400CF697A /* 互斥按钮循环创建Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C9DFE32622E0157400CF697A /* Build configuration list for PBXNativeTarget "互斥按钮循环创建Tests" */;
+			buildPhases = (
+				C9DFE30B22E0157400CF697A /* Sources */,
+				C9DFE30C22E0157400CF697A /* Frameworks */,
+				C9DFE30D22E0157400CF697A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C9DFE31122E0157400CF697A /* PBXTargetDependency */,
+			);
+			name = "互斥按钮循环创建Tests";
+			productName = "互斥按钮循环创建Tests";
+			productReference = C9DFE30F22E0157400CF697A /* 互斥按钮循环创建Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C9DFE31922E0157400CF697A /* 互斥按钮循环创建UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C9DFE32922E0157400CF697A /* Build configuration list for PBXNativeTarget "互斥按钮循环创建UITests" */;
+			buildPhases = (
+				C9DFE31622E0157400CF697A /* Sources */,
+				C9DFE31722E0157400CF697A /* Frameworks */,
+				C9DFE31822E0157400CF697A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C9DFE31C22E0157400CF697A /* PBXTargetDependency */,
+			);
+			name = "互斥按钮循环创建UITests";
+			productName = "互斥按钮循环创建UITests";
+			productReference = C9DFE31A22E0157400CF697A /* 互斥按钮循环创建UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C9DFE2EF22E0157300CF697A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "闫继祥";
+				TargetAttributes = {
+					C9DFE2F622E0157300CF697A = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					C9DFE30E22E0157400CF697A = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = C9DFE2F622E0157300CF697A;
+					};
+					C9DFE31922E0157400CF697A = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = C9DFE2F622E0157300CF697A;
+					};
+				};
+			};
+			buildConfigurationList = C9DFE2F222E0157300CF697A /* Build configuration list for PBXProject "互斥按钮循环创建" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C9DFE2EE22E0157300CF697A;
+			productRefGroup = C9DFE2F822E0157300CF697A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C9DFE2F622E0157300CF697A /* 互斥按钮循环创建 */,
+				C9DFE30E22E0157400CF697A /* 互斥按钮循环创建Tests */,
+				C9DFE31922E0157400CF697A /* 互斥按钮循环创建UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C9DFE2F522E0157300CF697A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9DFE30722E0157400CF697A /* LaunchScreen.storyboard in Resources */,
+				C9DFE30422E0157400CF697A /* Assets.xcassets in Resources */,
+				C9DFE30222E0157300CF697A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9DFE30D22E0157400CF697A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9DFE31822E0157400CF697A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C9DFE2F322E0157300CF697A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9DFE2FF22E0157300CF697A /* ViewController.m in Sources */,
+				C9DFE30A22E0157400CF697A /* main.m in Sources */,
+				C9DFE2FC22E0157300CF697A /* AppDelegate.m in Sources */,
+				C9DFE34122E071DA00CF697A /* CustomButtonView.m in Sources */,
+				C9DFE33F22E071DA00CF697A /* YSLCustomButton.m in Sources */,
+				C9DFE34022E071DA00CF697A /* UIColor+YMHex.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9DFE30B22E0157400CF697A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9DFE31422E0157400CF697A /* ________Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9DFE31622E0157400CF697A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9DFE31F22E0157400CF697A /* ________UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C9DFE31122E0157400CF697A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C9DFE2F622E0157300CF697A /* 互斥按钮循环创建 */;
+			targetProxy = C9DFE31022E0157400CF697A /* PBXContainerItemProxy */;
+		};
+		C9DFE31C22E0157400CF697A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C9DFE2F622E0157300CF697A /* 互斥按钮循环创建 */;
+			targetProxy = C9DFE31B22E0157400CF697A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C9DFE30022E0157300CF697A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C9DFE30122E0157300CF697A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C9DFE30522E0157400CF697A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C9DFE30622E0157400CF697A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C9DFE32122E0157400CF697A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C9DFE32222E0157400CF697A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C9DFE32422E0157400CF697A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 68VVHD6ZCQ;
+				INFOPLIST_FILE = "互斥按钮循环创建/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.YJXCreateTheNewProject.--------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C9DFE32522E0157400CF697A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 68VVHD6ZCQ;
+				INFOPLIST_FILE = "互斥按钮循环创建/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.YJXCreateTheNewProject.--------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C9DFE32722E0157400CF697A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 68VVHD6ZCQ;
+				INFOPLIST_FILE = "互斥按钮循环创建Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.YJXCreateTheNewProject.--------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/互斥按钮循环创建.app/互斥按钮循环创建";
+			};
+			name = Debug;
+		};
+		C9DFE32822E0157400CF697A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 68VVHD6ZCQ;
+				INFOPLIST_FILE = "互斥按钮循环创建Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.YJXCreateTheNewProject.--------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/互斥按钮循环创建.app/互斥按钮循环创建";
+			};
+			name = Release;
+		};
+		C9DFE32A22E0157400CF697A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 68VVHD6ZCQ;
+				INFOPLIST_FILE = "互斥按钮循环创建UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.YJXCreateTheNewProject.--------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "互斥按钮循环创建";
+			};
+			name = Debug;
+		};
+		C9DFE32B22E0157400CF697A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 68VVHD6ZCQ;
+				INFOPLIST_FILE = "互斥按钮循环创建UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.YJXCreateTheNewProject.--------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "互斥按钮循环创建";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C9DFE2F222E0157300CF697A /* Build configuration list for PBXProject "互斥按钮循环创建" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9DFE32122E0157400CF697A /* Debug */,
+				C9DFE32222E0157400CF697A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C9DFE32322E0157400CF697A /* Build configuration list for PBXNativeTarget "互斥按钮循环创建" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9DFE32422E0157400CF697A /* Debug */,
+				C9DFE32522E0157400CF697A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C9DFE32622E0157400CF697A /* Build configuration list for PBXNativeTarget "互斥按钮循环创建Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9DFE32722E0157400CF697A /* Debug */,
+				C9DFE32822E0157400CF697A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C9DFE32922E0157400CF697A /* Build configuration list for PBXNativeTarget "互斥按钮循环创建UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9DFE32A22E0157400CF697A /* Debug */,
+				C9DFE32B22E0157400CF697A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C9DFE2EF22E0157300CF697A /* Project object */;
+}
